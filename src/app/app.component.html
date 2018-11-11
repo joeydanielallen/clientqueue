@@ -16,8 +16,8 @@
         <td class="cell-border">{{item.name}}</td>
         <td class="cell-border">status</td>
         <td class="cell-border">
-          <div *ngIf="item.status === queue_working">
-            <img src="../assets/redspin.gif" alt="" height="50" width="50">
+          <div *ngIf="item.status === queue_working" class="loader">
+            
           </div>
           <div *ngIf="item.status === queue_complete">
             <div style="color:green;">{{item.status}}</div>        
@@ -31,6 +31,8 @@
     </div>
 
 </div>
-
+<p>
+  <a href=""
+</p>
 
 <router-outlet></router-outlet>

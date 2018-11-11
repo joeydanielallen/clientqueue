@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ngh": "ng build --prod --base-href 'https://joeydanielallen.github.io/clientqueue' && ngh -d dist\\workQ"
   },
   "private": true,
   "dependencies": {
